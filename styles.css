@@ -1,0 +1,232 @@
+.profile-header {
+    background-color: #ff6b81;
+    color: white;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-pic {
+    width: 180px;
+    height: 240px;
+    border-radius: 15px;
+    border: 5px solid white;
+    object-fit: cover;
+}
+
+.tagline {
+    font-size: 1.2em;
+    font-style: italic;
+    margin-top: 10px;
+}
+.about {
+    background: #ffffff;
+    margin: 20px auto;
+    padding: 25px;
+    max-width: 75%;
+    border-radius: 12px;
+    text-align: left;
+    line-height: 1.6;
+    font-family: 'Arial', sans-serif;
+}
+
+.about h2 {
+    color: #ff6b81;
+    text-align: center;
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+.about p {
+    font-size: 1.1em;
+    color: #333333;
+    margin-bottom: 15px;
+}
+.interests {
+    background: #ffffff;
+    margin: 20px auto;
+    padding: 25px;
+    max-width: 75%;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+.interests h2 {
+    color: #ff6b81;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.interests-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.interest-item {
+    background: #f8f9fa;
+    padding: 15px;
+    width: 45%;
+    min-width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
+
+.icon {
+    font-size: 2em;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.interest-item h3 {
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.interest-item p {
+    font-size: 1em;
+    color: #666;
+}
+.ideal-match {
+    background: linear-gradient(135deg, #ff6b81, #ff9a8b);
+    color: #fff;
+    margin: 20px auto;
+    padding: 30px;
+    max-width: 900px;
+    border-radius: 12px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.ideal-match h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.match-intro {
+    font-size: 1.2em;
+    margin-bottom: 25px;
+    font-style: italic;
+}
+
+.match-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+    justify-content: center;
+}
+
+.match-card {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    background-color: #f8f9fa   ;
+    border-radius: 12px;
+    text-align: center;
+}
+.icon {
+    font-size: 2.5em;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.match-card h3 {
+    font-size: 1.3em;
+    margin-bottom: 5px;
+}
+
+.match-card p {
+    font-size: 1em;
+}
+.match-meter {
+    background: #fff3f3;
+    text-align: center;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 75%;
+    margin: 20px auto;
+    font-family: 'Arial', sans-serif;
+}
+
+.match-meter h2 {
+    color: #ff6b81;
+    font-size: 1.8em;
+}
+
+.match-meter p {
+    font-size: 1.1em;
+    color: #333;
+}
+
+#matchButton {
+    background: #ff6b81;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+#matchButton:hover {
+    background: #ff4757;
+}
+
+#matchResult {
+    font-size: 1.2em;
+    margin-top: 15px;
+    color: #333;
+}
+.connect-with-me {
+    background: #e3f2fd;
+    text-align: center;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 75%;
+    margin: 20px auto;
+    font-family: 'Arial', sans-serif;
+}
+
+.connect-with-me h2 {
+    color: #1976d2;
+    font-size: 1.8em;
+}
+
+.cheesy-line {
+    font-size: 1.2em;
+    font-style: italic;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.contact-btn {
+    background: #1976d2;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.contact-btn:hover {
+    background: #0d47a1;
+}
+
+

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Dating Profile</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="profile-header">
+        <img src="./Photo.jpg" alt="My Profile Picture" class="profile-pic">
+        <h1>Vedang</h1>
+        <p class="tagline">Adventurer | Foodie | Tech Enthusiast</p>
+    </header>
+    
+    
+    <section class="about">
+        <h2>About Me</h2>
+        <p>Hey there! I'm Vedang, a tech geek 💻 currently on my B.Tech journey, trying to balance coding, sports, and anime marathons like a true multitasking legend. Originally from Odisha, but mentally, I’m either on a football field ⚽, a basketball court 🏀, or stuck in an anime universe 🎌.</p>
+    
+        <p>Speaking of sports, you’ll often find me hyped about a Champions League match or an NBA showdown. I may not have Zoro’s sense of direction, but put me on a football field, and I’ll find my way to the goal. 🏆</p>
+    
+        <p>Also, standing at 6'1, I might not be an NBA dunking champion, but I can definitely beat you in a friendly match of wit and anime trivia. 😆</p>
+    
+        <p>Fun fact: I once attempted a flashy anime-inspired basketball dunk… called,"Meteor Jam"☄️ and let’s just say, gravity had other plans. 😅 If you’re up for anime debates, spontaneous sports matches, or just want someone to geek out with, let’s connect! 🚀</p>
+    </section>
+    
+    
+    
+    <section class="interests">
+        <h2>My Interests & Hobbies</h2>
+        <div class="interests-container">
+            <div class="interest-item">
+                <span class="icon">🎌</span>
+                <h3>Anime Binger</h3>
+                <p>From the Big Three (Naruto, One Piece and Bleach) to hidden gems, anime is my ultimate escape.</p>
+            </div>
+            <div class="interest-item">
+                <span class="icon">⚽🏀</span>
+                <h3>Sports Enthusiast</h3>
+                <p>Football & Basketball keep me energized. Whether playing or watching, I’m always in the game.</p>
+            </div>
+            <div class="interest-item">
+                <span class="icon">🎮</span>
+                <h3>Gamer</h3>
+                <p>Strategy, adventure, and sports games are my go-to. Bonus points if you're up for a co-op match!</p>
+            </div>
+            <div class="interest-item">
+                <span class="icon">🍕</span>
+                <h3>Food Explorer</h3>
+                <p>Trying new foods is a passion. And yes, "puchka is better than golgappa"—fight me. 😆</p>
+            </div>
+            <div class="interest-
+    
+    
+            <section class="ideal-match">
+                <h2>My Ideal Match 💖</h2>
+                <p class="match-intro">Not looking for perfection—just someone who can vibe with my anime obsession, sports madness, and late-night food cravings. If you check some of these boxes, we might just be a match! 😉</p>
+            
+                <div class="match-grid">
+                    <div class="match-card">
+                        <span class="icon">⛩️</span>
+                        <h3>Anime Enthusiast</h3>
+                        <p>If you love watching, discussing, and debating anime, we’ll never run out of things to talk about!</p>
+                    </div>
+                    <div class="match-card">
+                        <span class="icon">🍔</span>
+                        <h3>Food Adventurer</h3>
+                        <p>Bonus points if you love trying new foods and won’t judge my midnight snack habits. 🍜</p>
+                    </div>
+                    <div class="match-card">
+                        <span class="icon">🕹️</span>
+                        <h3>Gaming Buddy</h3>
+                        <p>Let’s settle arguments over a friendly gaming match—or team up to win together. 🎮</p>
+                    </div>
+                    <div class="match-card">
+                        <span class="icon">😂</span>
+                        <h3>Funny & Witty</h3>
+                        <p>If you can make me laugh till my stomach hurts, consider this a match made in heaven. 😆</p>
+                    </div>
+                </div>
+            </section>
+            
+            
+            <section class="match-meter">
+                <h2>Match Meter 💘</h2>
+                <p>Click the button and see how compatible we are! 😏</p>
+                <button id="matchButton">Check Compatibility</button>
+                <p id="matchResult"></p>
+            </section>
+            
+            <script>
+                document.getElementById("matchButton").addEventListener("click", function() {
+                    let score = Math.floor(Math.random() * 101); 
+                    let message = "";
+            
+                    if (score > 80) {
+                        message = "🔥 We're a perfect match! Let's plan our anime marathons and food trips! 🍜🎌";
+                    } else if (score > 50) {
+                        message = "😊 There's definitely potential! Let's chat and see where this goes. 💬";
+                    } else {
+                        message = "😅 Well... opposites attract, right? Let's test that theory!";
+                    }
+            
+                    document.getElementById("matchResult").innerHTML = `Your compatibility score: <strong>${score}%</strong><br>${message}`;
+                });
+            </script>
+            
+            <section class="connect-with-me">
+                <h2>Connect With Me 📩</h2>
+                <p class="cheesy-line">"If you're reading this, it's a sign… to message me." 😉</p>
+                
+                <div class="social-links">
+                    <a href="mailto:veduz2020@gmail.com" class="contact-btn">📧 Email Me</a>
+                    <a href="https://in.linkedin.com/in/vedang-masne-b6ab14332" class="contact-btn">💼 LinkedIn</a>
+                </div>
+            </section>
+            
+</body>
+</html>
